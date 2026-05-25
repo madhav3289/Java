@@ -2,6 +2,8 @@ package day8;
 
 // abstraction
 
+// abstract class
+
 public class demo {
     public static void main(String[] args) {
         
