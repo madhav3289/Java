@@ -1,5 +1,7 @@
 package day6;
 
+// Encapsulation and Its Types
+
 
 public class demo {
     public static void main(String[] args) {
@@ -34,6 +36,7 @@ public class demo {
         //     2. Default
         //     3. Protected
         //     4. Public
+
     }
 }
 
