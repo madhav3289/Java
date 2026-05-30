@@ -8,7 +8,7 @@ public class demo2 {
         Students s2=new Students("Abhay",21,102);
 
         // Students.college="IIT-G";   
-        System.out.println(s1.age+" "+s1.name+" "+Students.college+" ");
+        System.out.println(s1.name+" "+s1.age+" "+s1.rollNo+" "+Students.college+" "+Students.grade);   // Aditya 20 101 IIT-G 9
 
     }
 }
