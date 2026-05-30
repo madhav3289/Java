@@ -6,6 +6,10 @@ package day5;
 // It means that this variable/method belongs to a class not to a particular instance or object.
 // Only one copy is created that is stored with the class itself.
 
+// static keyword 
+// 1. Variables 
+// 2. Methods
+
 
 public class demo {
     public static void main(String[] args) {
@@ -51,3 +55,10 @@ class MathUtils{
     //     return 2*x;
     // }
 }
+
+
+// Why main is static?
+// Because JVM has to call it before any object exists
+// by making main static JVM sidesteps all of this.
+// JVM just loads the class and calls directly without creating 
+// any object. constructor, instance
